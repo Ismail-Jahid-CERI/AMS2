@@ -1,0 +1,20 @@
+version: "3.1"
+
+rules:
+
+- rule: Dire « au revoir » quand l'utilisateur dit au revoir
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Dire « Je suis un bot » quand l'utilisateur challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Afficher les cours du jour
+  steps:
+    - intent: demander_emploi_du_temps
+    - action: action_cours_du_jour
+
+

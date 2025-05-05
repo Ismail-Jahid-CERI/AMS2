@@ -1,0 +1,97 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - salut
+    - bonjour
+    - bonsoir
+    - hey
+    - coucou
+    - bonne matinée
+    - bonne soirée
+    - comment ça va
+    - hé
+    - yo
+    - salut à toi
+    - hey toi
+    - coucou toi
+
+- intent: goodbye
+  examples: |
+    - à plus
+    - au revoir
+    - à plus tard
+    - bonne nuit
+    - bye
+    - passe une bonne journée
+    - on se voit plus tard
+    - à bientôt
+    - bye bye
+
+- intent: affirm
+  examples: |
+    - oui
+    - ouais
+    - en effet
+    - bien sûr
+    - ça me va
+    - correct
+
+- intent: deny
+  examples: |
+    - non
+    - jamais
+    - je ne pense pas
+    - je n'aime pas ça
+    - pas question
+    - pas vraiment
+
+- intent: mood_great
+  examples: |
+    - parfait
+    - génial
+    - incroyable
+    - je me sens comme un roi
+    - merveilleux
+    - je me sens très bien
+    - je suis super content
+    - je vais sauver le monde
+    - super
+    - extrêmement bien
+    - tellement parfait
+    - je suis au top
+
+- intent: malheureux
+  examples: |
+    - mon jour était horrible
+    - je suis triste
+    - je ne me sens pas très bien
+    - je suis déçu
+    - super triste
+    - je suis tellement triste
+    - triste
+    - très triste
+    - malheureux
+    - pas bien
+    - pas très bien
+    - extrêmement triste
+
+- intent: bot_challenge
+  examples: |
+    - es-tu un bot ?
+    - es-tu un humain ?
+    - est-ce que je parle à un bot ?
+    - est-ce que je parle à un humain ?
+
+- intent: demander_cours_du_jour
+  examples: |
+    - Quels sont mes cours aujourd'hui ?
+    - J’ai cours aujourd’hui ?
+    - C’est quoi mon emploi du temps aujourd’hui ?
+    - Quel est mon planning pour aujourd’hui ?
+    - Ai-je des cours aujourd’hui ?
+
+
+
+

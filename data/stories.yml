@@ -1,0 +1,37 @@
+version: "3.1"
+
+stories:
+
+- story: parcours heureux
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: parcours triste 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malheureux
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: parcours triste 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: malheureux
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: demander les cours du jour
+  steps:
+    - intent: demander_cours_du_jour
+    - action: action_cours_du_jour
+
+
